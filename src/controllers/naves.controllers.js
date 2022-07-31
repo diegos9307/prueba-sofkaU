@@ -29,8 +29,7 @@ export const registrarNave = async (req, res) => {
     await nave.save();
     res.json({
       status: "SUCESS",
-      message:
-        "Usuario creado exitosamente, revisa tu email y confirma tu cuenta",
+      message: "Nave creado exitosamente",
     });
   } catch (error) {
     res.json({ message: `Ha ocurrido un error: ${error}` });
