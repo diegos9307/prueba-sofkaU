@@ -9,7 +9,11 @@ const app = express();
 // Definición del Puerto
 const PORT = process.env.PORT || 5000;
 
+// cors para el despliegue
+app.use(cors());
+
 //Rutas
+app.use(express.json());
 app.use("/api", navesRouter);
 
 app.listen(PORT, console.log(`running in port ${PORT}`));
