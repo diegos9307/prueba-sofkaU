@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import "dotenv/config";
 import "./config/dbConfig.js";
 import navesRouter from "./routes/naves.routes.js";
