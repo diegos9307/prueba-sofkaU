@@ -44,6 +44,7 @@ export const obtenerNaves = async (req, res) => {
     } else {
       res.json({
         status: "SUCESS",
+        data: naves,
       });
     }
   } catch (error) {
