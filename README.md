@@ -28,3 +28,8 @@ url: https://prueba-sofkau.herokuapp.com/api/nave/:id
 
 Petición: DELETE
 url: https://prueba-sofkau.herokuapp.com/api/nave/:id
+
+
+### Video 
+
+https://youtu.be/i4KCKxTCjCI
